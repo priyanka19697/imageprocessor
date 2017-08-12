@@ -26,7 +26,7 @@ def split(event):
    b=Label(root,image=ImageTk.PhotoImage(g))
    b.pack()
    c = Label(root,image=ImageTk.PhotoImage(b))
-   c.pack()"""
+   c.pack()
 
 
 def sharpen(event):
@@ -49,8 +49,6 @@ def show(event):
     imglabel = Label(root, image=img)
     imglabel.pack()
     root.pack()
-
-#ento image kanabadatle kani empty di paste avtundi root window lo paste avtundaa elaaa switch control cheyu chupi naku\
 
 root = Tk()
 fr = Frame(root)
